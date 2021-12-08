@@ -78,6 +78,9 @@ margin-bottom: 20px;
 .article {
     display: flex;
 }
+.article img {
+    width: 100%;
+  }
 .article article{
     border: 3px solid black;
     margin-right: 20px;

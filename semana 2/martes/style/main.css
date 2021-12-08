@@ -1,0 +1,203 @@
+/* globales */
+body{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+h1{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+p{
+  font-size: 16px;
+  line-height: 26px;
+  color: black;
+  text-align: justify;
+  
+}
+a{
+  text-decoration: none;
+  margin-left: 30px;
+  color: inherit;
+}
+
+/* HEADER */
+.header{
+  background: #00AF1C;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.header .logo{
+  font-size: 32px;
+}
+.header .logo:hover{
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+
+
+.header ul{
+  display: flex;
+}
+
+
+
+/* MAIN */
+
+.contenedor{
+  width: 98%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* HOME */
+h1.one{
+  color: #3B06D2;
+}
+h1.one:hover{
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+
+.figura{
+  display: flex;
+}
+img:hover{
+  border: 1px solid deepskyblue;
+}
+  
+.box:hover{
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+/* SERVICIOS */
+h1.two{
+  color: #D206B2;
+}
+h1.two:hover{
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+.figura{
+  display: flex;
+}
+
+.box{
+  font-size: 18px;
+  line-height: 30px;
+ 
+}
+.box:hover{
+  border: 1px solid deepskyblue;
+  width: 10%;
+  
+}
+.servicio-uno, .servicio-dos{
+  list-style: unset;
+}
+ul.servicio-uno li:nth-child(1){
+  color: #FF0000;
+
+}
+ul.servicio-uno li:nth-child(2){
+  color: rebeccapurple;
+}
+ul.servicio-uno li:nth-child(3){
+  color: darkorange;
+}
+ul.servicio-uno li:nth-child(4){
+  color: deepskyblue;
+}
+
+
+/* PORTAFOLIO */
+h1.three{
+  color: #AAD206;
+}
+h1.three:hover{
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+ul.servicio-dos li:nth-child(1){
+  color: peru;
+}
+ul.servicio-dos li:nth-child(2){
+  color:maroon;
+}
+ul.servicio-dos li:nth-child(3){
+  color:midnightblue;
+}
+ul.servicio-dos li:nth-child(4){
+  color:olive;
+}
+
+/* CONTACTO */
+h1.four{
+  color: #06D2C6;
+}
+h1.four:hover{
+   text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+
+input[type="text"]{
+  
+  width: 1339px;
+  height: 88px;
+  left: 38px;
+  margin-bottom: 50px;
+  width: 98%;
+  max-width: 1500px;
+}
+
+      
+input[type="text2"]{
+
+  width: 1339px;
+  height: 214px;
+  left: 38px;
+  top: 2323px;
+  width: 98%;
+  max-width: 1500px;
+}
+button[type="submit"]{
+  margin-top: 37px;
+  margin-left: 25px;
+  width: 195px;
+  height: 73px;
+  left: 40px;
+  top: 2574px;
+  margin-bottom: 270px;
+  
+  border: 1px solid #22A900;
+  box-sizing: border-box;
+  font-size: 22px;
+
+}
+button:hover{
+  border: 1px solid deepskyblue;
+}
+.diseño{
+
+  background-color: white;
+  color: #00AF1C;
+
+}
+.diseño:hover{
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+/* FOOTER */
+
+.footer{
+  background: #00AF1C;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer p{
+ color: inherit;
+}
