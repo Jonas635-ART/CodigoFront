@@ -1,0 +1,81 @@
+/*Globales*/
+body {
+    font-family: arial;
+    font-size: 13px;
+    color:whitesmoke;
+   
+}
+
+h1 { 
+    font-size: 20px;
+    color:green;
+    width: 100px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+h2 { 
+    font-size: 20px;
+}
+h3 { 
+    font-size: 18px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+input{
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid firebrick;
+}
+/*tarjetas*/
+.tarjetas div {
+    /*aca estilos*/
+}
+/*nav*/
+.nav a {
+
+}
+
+/*Header*/
+.header .logo{
+    color:pink;
+}
+
+/*Home*/
+.home h2 {
+     color:violet;
+}
+.home .tarjetas div {
+
+}
+
+/*Servicios*/
+.servicios h2 {
+    color: rebeccapurple;
+    
+}
+
+.servicos input{
+    border:1px solid blue;
+}
+
+.servicios  li{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.servicios ul li.first{
+    color:red;
+}
+
+.servicios ul li.two{
+    color:green;
+}
+.servicios h1 { 
+    font-size: 24px;
+    color:orange;
+}
