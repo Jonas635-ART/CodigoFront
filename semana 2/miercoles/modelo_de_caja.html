@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de caja</title>
+ <style>
+
+     /*Display
+     display-block : hace bloque al elemento
+     display-inline: hace inline al elemento
+     display-none : esconde el elemento 
+     visibility: hidden: esconde elementos y siguen ocupando su espacio
+     display: inline-block: representa perfectamente el espaciado pero siguen el ancho de su contenido
+     
+     */
+
+     body {
+         margin: 0;
+     }
+
+     a {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 20px;
+     }
+
+ </style>
+</head>
+
+<body>
+    <header>
+        HEADER
+    </header>
+    <a href="">Enlace</a>
+    <a href="">Enlace</a>
+    <a href="">Enlace</a>
+    <a href="">Enlace</a>
+    <a href="">Enlace</a>
+    <a href="">Enlace</a>
+    <a href="">Enlace</a>
+    <div>Div</div>
+    <h1>H1</h1>
+    <span>Span</span>
+    <style>
+    h2.bordes {
+
+     /* border-style: dotted;
+     border-width: 6px;
+     border-color: goldenrod; */
+     border: 10px dotted green;
+
+    }
+    </style>
+      <h2 class="bordes">Bordes</h2>
+
+      <style>
+       .margen {
+           background: red;
+           width: 100px;
+           height: 100px;
+           /*margin-left: 10px;
+           margin-right: 10px;
+           margin-top: 20px;
+           margin-bottom: 20px;*/
+          /* margin: 20px 20px 20px 20px;*/
+           /*margin: 20px 20px 20px ;*/
+           margin: 20px;
+       }
+      </style>
+      <h2>Margenes</h2>
+      <div class="margen">hdfhgushg
+
+      </div>
+      <div class="margen">
+          
+    </div>
+    <style>
+        .padding{
+            background: yellow;
+            margin: 10px;
+            /*padding-left: 20px;
+            padding-right:20px
+            padding-top: 20px;
+            padding-bottom: 20px;*/
+            /* padding: 20px 20px 20px 20px;*/
+           /*padding: 20px 20px 20px ;*/
+            padding: 20px;
+        
+        }
+    </style>
+    <h2>Padding</h2>
+    <div class="padding">
+        Padding
+    </div>
+    <div class="padding">
+        Padding
+    </div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .box-sizing {
+        width: 5000px;
+        height: 200px;
+        background: greenyellow;
+        padding: 20px;
+        
+    }
+</style>
+   <div class="box-sizing">
+       Box Sizing
+    </div>
+    <style>
+    .box-viewport {
+         width: 200px;
+         height: 200px;
+         background: indianred;
+         overflow: hidden;
+         overflow-x: auto;
+    }
+    .box-viewport p {
+       /* width:5000px;
+        height:5000px;*/
+    }
+    </style>
+    <div class="box-viewport">
+        <p>Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Molestias, praesentium!</p>
+        <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            Molestias, praesentium!</p>
+        <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            Molestias, praesentium!</p>
+    </div>
+    <h2>backgrounf</h2>
+    <style>
+    .background {
+        width:200px;
+        height:200px;
+       /* background-color: lawngreen
+        background-image: url("https://media.prod.mdn.mozit.cloud/attachments/2015/12/02/11983/4e58af0c4274c982a2485fba43a06917/starsolid.gif");
+        background-repeat: no-repeat;
+        background-position: right top;*/
+        background: url("./images/starsolid.gif") no-repeat right bottom url("./images/paper.gif")repeat blue;
+        
+
+              }
+        </style>
+        <div class="background"></div>
+        <h2>outline</h2>
+         <style>
+         .outline {
+             width:200px;
+             height:200px;
+             outline:200px solid red;
+         }
+         input{
+             padding:10px;
+         }
+         input:focus {
+             outline:0;
+         }
+         </style>
+         <div class="outline">outline</div>
+</body>
+</html>
