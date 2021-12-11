@@ -1,1 +1,1 @@
-* FLEX-BOX: FLEX
+* FLEXBOX - FLEX
