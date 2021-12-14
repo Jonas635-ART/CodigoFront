@@ -1,0 +1,221 @@
+/*GLOBALES*/
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    color: #414141;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+   
+  }
+  h1{
+    font-size: 25px;
+    font-weight:bold;
+  }
+  
+  h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color:#0098EF;
+    margin-bottom: 15px;
+    
+  }
+  h3 {
+    font-size: 24px;
+    color:#5A0CB0;
+    margin-bottom: 15px;
+    text-align: end;
+  
+    }
+  
+  p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 0 0 30px;
+    
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .images figure {
+    margin-right: 30px;
+  }
+  
+  /*STICKY FOOTER*/
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .wrap .main {
+    flex-grow: 1;
+  }
+  
+  /*HEADER*/
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+   color: #707070;
+  }
+  
+  .header .logo {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #87119a;
+  }
+  
+  .header ul {
+    display: flex;
+  }
+  
+  .header li {
+    margin-left: 20px;
+  }
+  
+  .header li a {
+    font-weight: bold;
+  }
+  
+  .header li a:hover {
+    text-decoration: underline;
+    color:aqua
+   }
+  .main-section .cv {
+    background-color: #6D0AD3;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #6D0AD3;
+    
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  
+  /*MAIN*/
+  .main {
+    padding: 30px;
+  }
+  
+  .main > section {
+    margin-bottom: 80px;
+  }
+  
+  .main h2 {
+    margin-bottom: 25px;
+    color: #87119a;
+    border-left: 8px solid #87119a;
+    padding: 15px 0 15px 22px;
+  }
+  .main-section .saludo{
+          font-size: 15px;
+          font-weight:bold;
+  }
+  
+  /*portafolio*/
+  .portafolio .images figure {
+    margin-right: 25px;
+ 
+  }
+  .portafolio .images {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  /*SERVICES*/
+ 
+  .services .box {
+    width: 200px;
+    height: 200px;
+    background: #00CF95;
+    margin-bottom: 15px;
+    
+}
+
+  
+  
+  /*PORTFOLIO*/
+  .portfolio .images figure {
+    margin-right: 25px;
+    margin-bottom: 40px;
+  }
+  /*blog*/
+  .blog button {
+    background-color: #6D0AD3;
+   color: white;
+   width: 180px;
+   padding: 12px;
+   margin-top: 15px;
+   border-radius: 8px;
+   border-style: none;
+   margin-bottom: 15px;
+  }
+  
+  /*CONTACT*/
+
+  .contacto form {
+    width: 100%;
+  }
+  
+  .contacto div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .contacto input {
+    width: 48.5%;
+    padding: 20px;
+  }
+  
+  .contacto textarea {
+    height: 120px;
+    width: 100%;
+    padding: 10px;
+  }
+  .contacto .diseño{
+    background-color: #6D0AD3;
+    color: white;
+    width: 180px;
+    padding: 12px;
+    margin: auto;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 15px;
+
+  }
+  
+  
+  /*FOOTER*/
+  .footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ecefa;
+    color: #fff;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
