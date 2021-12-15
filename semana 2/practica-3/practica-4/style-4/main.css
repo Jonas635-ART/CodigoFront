@@ -11,6 +11,7 @@
     color: #414141;
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
+    margin: 20px;
   }
   
   a {
@@ -39,9 +40,11 @@
     }
   
   p {
-    font-size: 1.6rem;
+    font-size: 12px;
     line-height: 2.6rem;
-    margin: 0 0 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
     
   }
   
@@ -115,22 +118,40 @@
     padding: 30px;
   }
   
-  .main > section {
+  .main-section {
     margin-bottom: 80px;
+    justify-content: space-between;
   }
   
-  .main h2 {
+  .main-section p {
     margin-bottom: 25px;
-    color: #87119a;
-    border-left: 8px solid #87119a;
+    color: black;
+    border-left: 8px solid cyan;
     padding: 15px 0 15px 22px;
   }
-  .main-section .saludo{
-          font-size: 15px;
-          font-weight:bold;
-  }
+  .img-left {
+     padding-top: 30px;
+     margin-bottom: 38px;
+     display: flex;
+     margin-right: 10px;
+    }
+    
+    
+
+
   
-  /*portafolio*/
+  /*SERVICES*/
+ 
+  .services .box {
+    width: 200px;
+    height: 200px;
+    background: #00CF95;
+    margin-bottom: 15px;
+    align-items: center;
+      
+}
+ 
+  /*PORTFOLIO*/
   .portafolio .images figure {
     margin-right: 25px;
  
@@ -140,23 +161,6 @@
     margin-bottom: 15px;
   }
   
-  /*SERVICES*/
- 
-  .services .box {
-    width: 200px;
-    height: 200px;
-    background: #00CF95;
-    margin-bottom: 15px;
-    
-}
-
-  
-  
-  /*PORTFOLIO*/
-  .portfolio .images figure {
-    margin-right: 25px;
-    margin-bottom: 40px;
-  }
   /*blog*/
   .blog button {
     background-color: #6D0AD3;
@@ -204,8 +208,10 @@
     margin-bottom: 15px;
 
   }
+ 
   
   
+
   /*FOOTER*/
   .footer {
     padding: 20px;
