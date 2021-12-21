@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="./style-4/main.css">
 </head>
 <body>
+  <div>
+  
     <div class="wrap">
         <header class="header">
-            <a class="logo" href="/">
-            
-            </a>
+          <a href="" class="logo"><img src="./img4/logo.png" alt=""> 
+          </a>
+         
             <nav>
                 <ul>
                     <li>
@@ -33,6 +35,8 @@
                     </li>
                 </ul>
             </nav>
+          </header>
+        </div>
        </header>
        <main>
        <section class="main-section">
@@ -50,11 +54,17 @@
             epudiandae ea sed impedit optio sapiente sunt,
             quia ex, expedita ad omnis.
             Consequuntur tempore facilis fuga fugiat doloribus.
+            
             <img src="./img4/Ellipse 1.png" alt="" />
+            <img class="imgt" src="./img4/image 1.png" alt="" />
+            <img class="imgt" src="./img4/image 2.png" alt="" />
+          
+
         </p>
         <div>
             <button class="cv">Descargar CV</button>
-          </div>  
+          </div> 
+
           <div class="img-left">
             <figure>
             <img src="./img4/mdi_linkedin.png" alt="" />
@@ -72,6 +82,8 @@
             <img src="./img4/mdi_whatsapp.png" alt="" />
           </figure>
           </div>
+       
+        
     </section>
     <section class="portafolio" id="portafolio">
         <h2>Portafolio</h2>
@@ -108,64 +120,115 @@
       </section>
       <section class="services">
           <h2>Services</h2>
+          <div class="grid">
           <div class="box"><h3>ux / ui</h3></div>
           <div class="box"><h3>Front End</h3></div>
           <div class="box"><h3>Back End</h3></div>
           <div class="box"><h3>Apps</h3></div>
           <div class="box"><h3>Consulting</h3></div>
           <div class="box"><h3>Cloud</h3></div>
-          
+        </div>
           </section>
           <section class="blog">
             <h2>Blog</h2>
-            <div>
-              <figure>
-                <img src="./img4/Rectangle 18.png" alt="" >
-              </figure>
-               <p>Loripsum dolor sit amet 
-                consectetur adipisicing elit. 
-                Reiciendis, atque facere! 
-                Natus soluta suscipit a.</p>
-              <figure>
-                <img src="./img4/Rectangle 19 (1).png" alt="" >
-              </figure>
-              <p>Loripsum dolor sit amet 
-                consectetur adipisicing elit. 
-                Reiciendis, atque facere! 
-                Natus soluta suscipit a.</p>
-              <figure>
-                <img src="./img4/Rectangle 20.png" alt="" >
-              </figure>
-              <p>Loripsum dolor sit amet 
-                consectetur adipisicing elit. 
-                Reiciendis, atque facere! 
-                Natus soluta suscipit a.</p>
-              <figure>
-                <img src="./img4/Rectangle 21.png" alt="" >
-              </figure>
-              <p>Loripsum dolor sit amet 
-                consectetur adipisicing elit. 
-                Reiciendis, atque facere! 
-                Natus soluta suscipit a.</p>
+            <section class="posts">
+              <article class="post-container-full">
+                <figure>
+                  <img src="./img4/Rectangle 18.png" alt="" />
+                </figure>
+                <h3>Js el nuevo rey</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptatibus maiores
+                  error tempore nam rerum, facere earum
+                  obcaecati quae vel quasi, quas sint
+                  est harum unde non distinctio quis
+                  laboriosam?
+                </p>
+                <a href="#">Leer mas</a>
+              </article>
+              <div class="post-container-shared">
+              <article class="post">
+                <figure>
+                  <img src="./img4/Rectangle 19 (1).png" alt="" />
+                </figure>
+                <div>
+                <h3>CSS3 Animations</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptatibus maiores
+                  error tempore nam rerum, facere earum
+                  obcaecati quae vel quasi, quas sint
+                  est harum unde non distinctio quis
+                  laboriosam?
+                  <a href="#">Leer mas</a>
+                </p>
+              </div>
+              </article>
+              <article class="post">
+                <figure>
+                  <img src="./img4/Rectangle 20.png" alt="" />
+                </figure>
+                <div>
+                <h3>Javascript animations</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptatibus maiores
+                  error tempore nam rerum, facere earum
+                  obcaecati quae vel quasi, quas sint
+                  est harum unde non distinctio quis
+                  laboriosam?
+                  <a href="#">Leer mas</a>
+                </p>
+               
+                <div>
+              </article>
+              <article class="post">
+                <figure>
+                  <img src="./img4/Rectangle 21.png" alt="" />
+                </figure>
+                <div>
+                <h3>Js Engine</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptatibus maiores
+                  error tempore nam rerum, facere earum
+                  obcaecati quae vel quasi, quas sint
+                  est harum unde non distinctio quis
+                  laboriosam?
+                  <a href="#">Leer mas</a>
+                </p>
+               
+                <div>
+              </article>
+              <article class="suscription">
+                <p>Lorem ipsum dolor sit,
+                  amet consectetur adipisicing elit.
+                  Fugit provident nihil porro sit?</p>
+                <form action="">
+                  <input type="text" placeholder="Email">
+                  <a href="#">Suscribete</a>
+                </form>
+              </article>
             </div>
-            <form action="">
-              <input
-              type="email" placeholder="Email"
-          value="Email"
-          name=""/>
-          </form>
-          <button class="diseño" type="submit">Sucribirse</button>
-
+            </section>
           </section>
+    
           <section class="contacto">
             <h2>Contacto</h2>
             <form action="">
               <div>
                 <input type="text" placeholder="Nombre">
                 <input type="number" placeholder="Telefono">
+                <select name="type-proyect" id="">
+                  <option value="0" selected>Tipo de proyectos</option>
+                  <option value="1">Proyecto 1</option>
+                  <option value="2">Proyecto 2</option>
+
+                </select>
+                <select name="type-proyect" id="">
+                  <option value="0" selected>Presupuesto</option>
+                  <option value="1">Presupuesto 1</option>
+                  <option value="2">Presupuesto 2</option>
+            </select>
               </div>
-              
-              <div>
+            <div>
                 <textarea name="description" placeholder="Descripción"></textarea>
               </div>
               <div>
@@ -174,22 +237,51 @@
             </form>          
 
           </section>
-          <footer>
+          </main>
 
-          </footer>
+          <footer class="footer">
+            <a href="" class="logo"><img src="./img4/logo.png" alt=""> 
+            </a>
+            <h1 class="footer-title">GRACIAS POR VISITARNOS</h1>
+            <nav>
+              <ul>
+                  <li>
+                      <a href="">Sobre mi</a>
+                  </li>
+                  <li>
+                      <a href="">Portafolio</a>
+                  </li>
+                  <li>
+                      <a href="">Servicios</a>
+                  </li>
+                  <li>
+                      <a href="">Blogs</a>
+                  </li>
+                  <li>
+                      <a href="">Contactos</a>
+                  </li>
+              </ul>
+          </nav>
+          <div class="img-left">
+            <figure>
+            <img src="./img4/mdi_linkedin.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./img4/mdi_github.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./img4/mdi_codepen.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./img4/mdi_email.png" alt="" />
+          </figure>
+           <figure>
+            <img src="./img4/mdi_whatsapp.png" alt="" />
+          </figure>
+          </div>
+        </footer>
 
-</main>
-
-
-
-
-
-
-
-
-
-
-    </div>
+      </div>
     
 </body>
 </html>
