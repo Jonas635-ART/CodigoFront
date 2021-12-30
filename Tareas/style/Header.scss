@@ -1,0 +1,30 @@
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color:#000000;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+  
+  ul li {
+    padding: 10px;
+  }
+  
+  .header li a:hover {
+    text-decoration: underline;
+    color:#1F3F68;
+   }
+   .p-title{
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+   }
+   header .buscador{
+    justify-content:flex-start;
+    align-items:flex-end;
+    padding: 20px;
+   }

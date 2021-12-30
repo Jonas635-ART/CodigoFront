@@ -1,0 +1,41 @@
+/*footer*/
+footer{
+    background-color:#316099;
+    justify-content: space-between;
+    align-content: center;
+}
+footer h6{
+    font-size: 36px;
+}
+footer p{
+     font-size:16px;
+     color:white;
+     margin-right:450px;
+}
+.boton{
+    background-color: #5A98D0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #5A98D0;
+    border-radius: 12px;
+    margin-top: 25px;
+   
+}
+button{
+
+    align-items: center;
+}
+ul a{
+    list-style:none;
+    display: inline;
+}
+.about .Follow{
+        display: flex;
+        align-items: flex-end;
+        padding: 30px;
+        margin-bottom: 20px;
+      
+}
