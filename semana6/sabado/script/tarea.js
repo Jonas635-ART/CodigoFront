@@ -5,7 +5,7 @@ function addUser() {
         js_crear_eti: document.querySelector(".js_crear_eti").value,
         js_contenido: document.querySelector(".js_contenido").value,
         js_estilos: document.querySelector(".js_estilos").value,
-        js_insertar_eti: document.querySelector(".js_insertar_eti").value,
+        js_insertar_eti: document.querySelector(".js_etiqueta").value,
        
       };
   
@@ -17,9 +17,10 @@ function addUser() {
       card.innerHTML = `
           <div class="card">
               <div class="card-body">
-                  <h5 class="card-title">${values.js_crear_eti} ${values.js_contenido}</h5>
+                  <h5 class="card-title">${values.js_crear_eti}</h5>
+                  <h5 class="card-title">${values.js_contenido}</h5>
                   <h5 class="card-title">${values.js_estilos}</h5>
-                  <h5 class="card-title">${values.js_insertar_eti}</h5>
+                  <h5 class="card-title">${values.js_etiqueta}</h5>
                   
               </div>
               <button>X</button>
@@ -43,9 +44,10 @@ function addUser() {
     function makeRow(values) {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-          <td>${values.js_crear_eti} ${values.js_contenido}</td>
+          <td>${values.js_crear_eti} </td>
+          <td>${values.js_contenido}</td>
           <td>${values.js_estilos}</td>
-          <td>${values.js_insertar_eti}</td>
+          <td>${values.js_etiqueta}</td>
       `;
   
       return tr;
