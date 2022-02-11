@@ -1,0 +1,44 @@
+.card {
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 0 10px rgb(182, 182, 182);
+  }
+
+  &__figure {
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  &__text {
+    padding: 20px;
+  }
+
+  &__edit,
+  &__delete {
+    position: absolute;
+    padding: 10px;
+    top: -10px;
+    cursor: pointer;
+  }
+
+  &__edit {
+    background: green;
+    left: 0;
+  }
+
+  &__delete {
+    right: 0%;
+    background: red;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+}
